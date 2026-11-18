@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 28px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1080px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    gap: 45px;
+}
+
+.tarjeta h1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tarjeta p {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tarjeta input {
+    border-radius: 20px;
+    width: 95px;
+    height: 20px;
+    padding: 15px;
+}
+
+.tarjeta input,
+select {
+    height: 54px;
+    border: 2px solid #333;
+    border-radius: 13px;
+    padding: 0 15px;
+    font-size: 17px;
+    background-color: white;
+    color: #222;
+    outline: none;
+}
+
+.tarjeta button {
+    height: 54px;
+    border: 2px solid #333;
+    border-radius: 13px;
+    padding: 0 15px;
+    font-size: 17px;
+    background-color: #222;
+    color: #ffffff;
+    outline: none;
+}
+
+.tarjeta input[type="number"] {
+    height: 54px;
+    border: 2px solid #333;
+    border-radius: 13px;
+    padding: 0 15px;
+    font-size: 17px;
+    background-color: white;
+    color: #222;
+    outline: none;
+    width: 120px;
+}
+
+/* Estilo visual para cuando el botón está deshabilitado */
+.tarjeta button:disabled {
+    background-color: #777;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
